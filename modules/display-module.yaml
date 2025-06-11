@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: rpm-ostree
+    install:
+      - wlr-randr
+      - wlsunset
+      - brightnessctl
+      - kanshi
+      - xorg-x11-server-Xwayland
+      - wl-clipboard
+      - qt5-qtwayland
+      - qt6-qtwayland
+      - vulkan-tools
+      - vulkan-validation-layers
+      - google-noto-emoji-fonts

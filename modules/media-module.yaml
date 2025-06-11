@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: script
+    scripts:
+      - installRpmFusion.sh
+      - installProprietaryPackages.sh
+  - type: rpm-ostree
+    install:
+      - pavucontrol
+      - playerctl
+      - headsetcontrol
+      - alsa-firmware
+      - mediainfo
+      - wireplumber
+      - pipewire
+      - pamixer
+      - pulseaudio-utils
+      - heif-pixbuf-loader
+      - ffmpeg
+      - ffmpeg-libs
+      - ffmpegthumbnailer
+      - pipewire-libs-extra
+      - libfdk-aac
+      - gstreamer1-plugins-bad
+      - gstreamer1-plugins-ugly
+    remove:
+      - gstreamer1-plugins-bad-free
+      - gstreamer1-plugins-bad-free-libs
+      - gstreamer1-plugins-ugly-free
+      - gstreamer1-plugin-vaapi
+      - fdk-aac-free
+      - ffmpeg-free
+      - libavcodec-free
+      - libavdevice-free
+      - libavfilter-free
+      - libavformat-free
+      - libavutil-free
+      - libpostproc-free
+      - libswresample-free
+      - libswscale-free

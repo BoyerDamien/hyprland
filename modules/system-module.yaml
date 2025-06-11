@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: rpm-ostree
+    install:
+      - tuned-ppd
+      - xdg-user-dirs
+      - dbus-daemon
+      - dbus-tools
+      - openssl
+      - gnome-disk-utility
+      - ddcutil
+      - mediawriter

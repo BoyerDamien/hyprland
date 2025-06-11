@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: rpm-ostree
+    install:
+      - dunst
+      - fontawesome-fonts-all
+      - gnome-themes-extra
+      - gnome-icon-theme
+      - paper-icon-theme
+      - breeze-icon-theme
+      - papirus-icon-theme
+      - dunst

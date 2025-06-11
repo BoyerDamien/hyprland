@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: rpm-ostree
+    install:
+      - thunar
+      - thunar-archive-plugin
+      - thunar-volman
+      - xarchiver
+      - imv
+      - p7zip
+      - gvfs-mtp
+      - gvfs-gphoto2
+      - gvfs-smb
+      - gvfs-nfs
+      - gvfs-fuse
+      - gvfs-archive
+      - android-tools

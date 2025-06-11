@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: rpm-ostree
+    install:
+      - network-manager-applet
+      - bluez
+      - bluez-tools
+      - blueman
+      - firewall-config
